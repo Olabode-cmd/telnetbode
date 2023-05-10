@@ -203,7 +203,8 @@ img {
 .section-mobile {
     padding: 4rem 0;
 }
-.section-mobile .left-side {
+.section-mobile .left-side,
+.section-mobile .right-side {
     margin-top: 7rem;
 }
 .section-mobile .d-flex {
@@ -220,7 +221,12 @@ img {
 }
 .section-mobile .text {
     flex: 2;
-    text-align: right;
     display: inline-block;
+}
+.section-mobile .left-side .text {
+    text-align: right;
     margin-right: 15px;
+}
+.section-mobile .right-side .text {
+    margin-left: 15px;
 }
